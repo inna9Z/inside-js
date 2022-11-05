@@ -10,3 +10,4 @@ export const keepLongStrings = (strings = [], long = 5) => {
   }
   return longStrings;
 };
+console.log(keepLongStrings());

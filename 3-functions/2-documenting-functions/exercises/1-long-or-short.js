@@ -5,11 +5,11 @@
 console.log('-- begin --');
 
 /**
- * _
+ * _ Find the lenght of text and do cutoff
  *
- * @_ {_} [_=_] - _
- * @_ {_} [_=_] - _
- * @_ {_} _
+ * @param {any} [text = ''] - the left operand
+ * @param {any} [cutoff = 0] - the right operand
+ * @returns {text.length} the length should be short or long
  */
 const longOrShort = (text = '', cutoff = 0) => {
   if (text.length < cutoff) {

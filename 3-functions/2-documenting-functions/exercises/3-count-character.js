@@ -4,8 +4,10 @@
 
 console.log('-- begin --');
 
-/**
- *
+/** To do count Character 
+ *@param {any} [text = ''] left operand 
+ *@param {any} [toCount = ''] right operand
+ @return [count] = Should to count character
  */
 const countCharacter = (text = '', toCount = '') => {
   if (toCount.length !== 1) {

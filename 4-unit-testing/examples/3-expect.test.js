@@ -30,7 +30,7 @@ describe('about expect', () => {
     it('5, 5', () => {
       expect(5).toEqual(5);
     });
-    it('5, "5"', () => {
+    it(5, "5"', () => {
       expect(5).toEqual('5');
     });
     it('true, true', () => {
@@ -50,7 +50,7 @@ describe('about expect', () => {
   // another nested test suite just for fun
   describe('JavaScript', () => {
     it('is sometimes confusing', () => {
-      expect(9 + '9').toEqual('99');
+      expect('9' + '9').toEqual('99');
     });
   });
 });

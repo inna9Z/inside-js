@@ -5,10 +5,10 @@
 console.log('-- begin --');
 
 /**
- * _
+ * To do revesed strind
  *
- * @_ {_} [_=_] - _
- * @_ {_}  _
+ * @param{any} [toCheck = ''] - one operand
+ * @return {reversed}  Reversed character of toCheck
  */
 const isPalindrome = (toCheck = '') => {
   let reversed = '';

@@ -15,10 +15,17 @@ console.log('originalString:', originalString);
 
 let reverseUpperCase = '';
 
-for (_; _; _) {
-  // a blank canvas :)
-}
+for (let i = originalString.length -1; i >= 0; i--) {
+  const nextletter = originalString[i];
+  const letterToUpperCase = nextletter.toUpperCase();
+  reverseUpperCase += letterToUpperCase; 
+  // a blank canvas 
 
+  if (reverseUpperCase === 'EDCBA') {
+    console.log('reversed string is the original reversed');
+  }
+}
+ console.log(reverseUpperCase);
 console.assert(
   reverseUpperCase === 'EDCBA',
   'reversed string is the original reversed',
